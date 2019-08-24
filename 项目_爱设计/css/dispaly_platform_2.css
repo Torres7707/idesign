@@ -1,0 +1,311 @@
+/* 公共样式 start*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button,
+input,
+select,
+a,
+textarea {
+    outline: none;
+    resize: none;
+}
+
+.container {
+    width: 100%;
+    min-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 1200px;
+    height: 87px;
+    margin: 0 auto;
+}
+
+.nav img {
+    width: 157px;
+    height: 58px;
+    float: left;
+    margin: 16px 0 0 9px;
+}
+
+.nav ul {
+    width: 640px;
+    height: 14px;
+    float: left;
+    list-style: none;
+    margin: 38px 0 0 116px;
+}
+
+.nav li {
+    width: auto;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #626262;
+}
+
+.nav a:hover {
+    color: #ff3c58;
+}
+
+.active a {
+    color: #ff3c58 !important;
+}
+
+.nav button {
+    width: 62px;
+    height: 14px;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    line-height: 14px;
+    color: #626262;
+    float: right;
+    margin: 38px 12px 0 0;
+    cursor: pointer;
+}
+
+.footer .bottom {
+    width: 100%;
+    height: 267px;
+    background: #292929;
+}
+
+.bottom_con {
+    width: 1200px;
+    height: 267px;
+    margin: 0 auto;
+}
+
+.bottom .ulist {
+    width: 284px;
+    height: 267px;
+    position: relative;
+    float: left;
+}
+
+.bottom ul {
+    width: 65px;
+    height: 175px;
+    list-style: none;
+    position: absolute;
+    top: 55px;
+    left: 0;
+}
+
+.bottom li {
+    width: 65px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+.bottom .info {
+    width: 640px;
+    height: 267px;
+    float: left;
+    position: relative;
+}
+
+.bottom .info1 {
+    width: 534px;
+    height: 200px;
+    border-left: 2px solid #323232;
+    border-right: 2px solid #323232;
+    position: absolute;
+    top: 30px;
+    left: 39px;
+    position: relative;
+}
+
+.bottom h3 {
+    width: 160px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    position: absolute;
+    top: 23px;
+    left: 159px;
+}
+
+.bottom .info img {
+    width: 160px;
+    height: 35px;
+    position: absolute;
+    top: 58px;
+    left: 159px;
+    cursor: pointer;
+}
+
+.bottom .p18 {
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    position: absolute;
+    top: 116px;
+    left: 159px;
+}
+
+.bottom input {
+    width: 157px;
+    height: 33px;
+    border: none;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #131313;
+    position: absolute;
+    top: 145px;
+    left: 159px;
+    resize: none;
+}
+
+.footer .bottom button {
+    width: 35px;
+    height: 33px;
+    border: none;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    top: 146px;
+    left: 336px;
+    cursor: pointer;
+}
+
+.bottom .about {
+    width: 276px;
+    height: 267px;
+    float: left;
+    position: relative;
+}
+
+.bottom .logo2 {
+    width: 160px;
+    height: 60px;
+    vertical-align: top;
+    position: absolute;
+    top: 130px;
+    left: 118px;
+}
+
+.bottom .p19 {
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #737373;
+    position: absolute;
+    top: 217px;
+    right: 0;
+}
+
+/* 公共样式 end*/
+
+.content {
+    width: 1220px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0 160px;
+}
+
+.content .content_title {
+    width: 100%;
+    height: 80px;
+}
+
+.content .content_title .p1 {
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    margin: 30px 0 0 0;
+    cursor: pointer;
+}
+
+.content .content_title img {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin: 32px 0 0 10px;
+}
+
+.content .content_title .p2 {
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    margin: 30px 0 0 10px;
+    color: #ff5880;
+    cursor: pointer;
+}
+
+.content .content_heading {
+    width: 100%;
+    height: 36px;
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.content .content_img {
+    width: 100%;
+    height: 616px;
+    margin: 20px 0 0 0;
+}
+
+.content .content_img .big {
+    width: 1000px;
+    height: 616px;
+    vertical-align: top;
+    float: left;
+}
+
+.content .content_img .small {
+    width: 200px;
+    height: 616px;
+    vertical-align: top;
+    float: left;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+}
+
+.content .content_con {
+    width: 1000px;
+    height: 333px;
+    margin: 80px 0 0 0;
+}
+
+.content .content_con .title {
+    width: 100%;
+    height: 24px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #3e3e3e;
+}
+
+.content .content_con .title2 {
+    margin: 75px 0 0 0;
+}
+
+.content .content_con .con {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3e3e3e;
+    margin: 15px 0 0 0;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="logup">
+        <div class="logup_con">
+            <button class="btn_close"><img src="img/signIn/close.png" alt=""></button>
+            <div class="userinfo">
+                <form action="" method="">
+                <p>用户名</p>
+                <input type="text" class="" placeholder="请设置用户名">
+                <p>手机号</p>
+                <input type="text" class="" placeholder="可用于登录和找回密码">
+                <p>验证码</p>
+                <input type="text" class="" placeholder="请输入密码">
+                <p>密码</p>                
+                <input type="text" class="" placeholder="请设置登录密码">
+                <input type="checkbox" id="autologin">
+                <label for="autologin">下次自动登录</label>
+                <button type="button" class="signup">注册</button>
+            </form>
+            </div>
+            <div class="succes">
+                <img src="img/signIn/椭圆1.png" alt="">
+                <h2>注册成功</h2>
+                <p>注册成功</p>
+                <div>
+                    <button class="ok">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="../jquery/jquery-3.4.1.min.js"></script>
+<script>
+    $(function(){
+        $(".signup").click(function(){
+            $(".userinfo").hide();
+            $(".succes").show();
+        })
+    })
+</script>
+</html>

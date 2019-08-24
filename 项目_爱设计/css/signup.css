@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button,
+input,
+select,
+a,
+textarea {
+    outline: none;
+    resize: none;
+}
+
+.logup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.3);
+}
+
+.logup .logup_con {
+    width: 543px;
+    height: 411px;
+    background: #ffffff;
+    margin: 215px auto;
+    position: relative;
+    padding: 50px 0 0 0;
+}
+
+.logup .logup_con .btn_close {
+    width: 30px;
+    height: 30px;
+    border: none;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    cursor: pointer;
+}
+
+.logup .logup_con button img {
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+}
+
+.logup .logup_con .userinfo {
+    width: 380px;
+    height: 370px;
+    margin: 0 auto;
+}
+
+.logup .logup_con .userinfo form p {
+    float: left;
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.logup .logup_con .userinfo input {
+    width: 268px;
+    height: 38px;
+    border: 1px solid #cecece;
+    float: left;
+    margin: 0 0 35px 0;
+    padding: 0 15px;
+    color: #000000;
+}
+
+input::-webkit-input-placeholder {
+    color:  #e7e7e7;
+}
+
+.logup .logup_con .userinfo form input:nth-of-type(4) {
+    margin: 0 0 20px 0 !important;
+}
+
+.logup .logup_con .userinfo form input:nth-of-type(5) {
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 0 0 80px !important;
+}
+
+.logup .logup_con .userinfo form label {
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+    user-select: none;
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+
+.logup .logup_con .userinfo form .signup {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    float: left;
+    margin: 20px 0 0 0;
+    color: #ffffff;
+    cursor: pointer;
+}
+.logup .logup_con .succes {
+    display: none;
+    width: 380px;
+    height: 370px;
+    margin: 20px auto;
+}
+
+.logup .logup_con .succes img {
+    width: 138px;
+    height: 138px;
+    float: left;
+    margin: 0 0 60px 121px;
+}
+
+.logup .logup_con .succes h2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.logup .logup_con .succes p {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 44px 0 0 0;
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+    color: #3e3e3e;
+}
+
+.logup .logup_con .succes div {
+    width: 100%;
+    height: 40px;
+    float: left;
+    margin: 30px 0 0 150px;
+}
+
+.logup .logup_con .succes .ok {
+    width: 80px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    font-size: 14px;
+    color: #ffffff;
+}

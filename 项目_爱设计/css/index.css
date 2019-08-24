@@ -1,0 +1,786 @@
+/* 公共样式 start*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button,
+input,
+select,
+a,
+textarea {
+    outline: none;
+    resize: none;
+}
+
+.container {
+    width: 100%;
+    min-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* 导航栏下拉start */
+.nav {
+    width: 1200px;
+    height: 87px;
+    margin: 0 auto;
+}
+
+.nav>a>img {
+    width: 157px;
+    height: 58px;
+    float: left;
+    margin: 16px 0 0 9px;
+}
+
+.nav>ul {
+    width: 640px;
+    height: 14px;
+    float: left;
+    list-style: none;
+    margin: 38px 0 0 116px;
+}
+
+.nav>ul>li {
+    width: 80px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    color: #626262;
+}
+
+.nav>ul>li>a:hover {
+    color: #ff3c58;
+}
+
+.active>a {
+    color: #ff3c58 !important;
+}
+
+/* .nav>ul>li>.subnav {
+    list-style: none;
+    width: 100%;
+    height: auto;
+    background: rgba(255,255,255,0.4);
+    position: absolute;
+    top: 14px;
+    z-index: 10;
+    display: none;
+}
+
+.nav>ul>li>.subnav>li {
+    width: 100%;
+    height: 28px;
+    float: left;
+    margin: 20px 0 0 0;
+    border-bottom: 1px solid #626262;
+}
+
+.nav>ul>li>.subnav>li>a {
+    display: block;
+    text-decoration: none;
+    height: 28px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+} */
+
+.nav>button {
+    width: 62px;
+    height: 14px;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    line-height: 14px;
+    color: #626262;
+    float: right;
+    margin: 38px 12px 0 0;
+    cursor: pointer;
+}
+/* 导航栏下拉end */
+
+.banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.banner ul {
+    width: 100%;
+    height: auto;
+    /* position: relative; */
+    /* background: linear-gradient(to right, #ff2e64, #ff5c3b); */
+}
+
+.banner ul>li {
+    width: 100%;
+    height: auto;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; */
+    display: none;
+}
+
+.banner ul li a {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.banner ul>.active {
+    display: block;
+}
+
+.banner>button{
+    width: 88px;
+    height: 88px;
+    font-size: 40px;
+    color: #ffffff;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -44px;
+    z-index: 100;
+    background: rgba(255,255,255,0.4);
+}
+.prev{
+    left: 18.75%;
+}
+.next{
+    right: 18.75%;
+}
+.banner>button:active{
+    background: rgba(0,0,0,0.4);
+}
+
+/* .banner .aaa {
+    position: absolute;
+    top: 355px;
+    left: 280px;
+    width: 374px;
+    height: 112px;
+}
+
+.banner .p1 {
+    width: 315px;
+    height: 72px;
+    font-size: 72px;
+    float: left;
+    margin: 0 0 0 30px;
+    line-height: 72px;
+    color: #ff345f;
+}
+
+.banner .p2 {
+    width: 374px;
+    height: 51px;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    float: left;
+    font-size: 24px;
+    line-height: 51px;
+    color: #ffffff;
+    text-align: center;
+} */
+
+.bbb {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+}
+
+.footer .bottom {
+    width: 100%;
+    height: 267px;
+    background: #292929;
+}
+
+.bottom_con {
+    width: 1200px;
+    height: 267px;
+    margin: 0 auto;
+}
+
+.bottom .ulist {
+    width: 284px;
+    height: 267px;
+    position: relative;
+    float: left;
+}
+
+.bottom ul {
+    width: 65px;
+    height: 175px;
+    list-style: none;
+    position: absolute;
+    top: 55px;
+    left: 0;
+}
+
+.bottom li {
+    width: 65px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+.bottom .info {
+    width: 640px;
+    height: 267px;
+    float: left;
+    position: relative;
+}
+
+.bottom .info1 {
+    width: 534px;
+    height: 200px;
+    border-left: 2px solid #323232;
+    border-right: 2px solid #323232;
+    position: absolute;
+    top: 30px;
+    left: 39px;
+    position: relative;
+}
+
+.bottom h3 {
+    width: 160px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    position: absolute;
+    top: 23px;
+    left: 159px;
+}
+
+.bottom .info img {
+    width: 160px;
+    height: 35px;
+    position: absolute;
+    top: 58px;
+    left: 159px;
+    cursor: pointer;
+}
+
+.bottom .p18 {
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    position: absolute;
+    top: 116px;
+    left: 159px;
+}
+
+.bottom input {
+    width: 157px;
+    height: 33px;
+    border: none;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #131313;
+    position: absolute;
+    top: 145px;
+    left: 159px;
+    resize: none;
+}
+
+.footer .bottom button {
+    width: 35px;
+    height: 33px;
+    border: none;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    top: 146px;
+    left: 336px;
+    cursor: pointer;
+}
+
+.bottom .about {
+    width: 276px;
+    height: 267px;
+    float: left;
+    position: relative;
+}
+
+.bottom .logo2 {
+    width: 160px;
+    height: 60px;
+    vertical-align: top;
+    position: absolute;
+    top: 130px;
+    left: 118px;
+}
+
+.bottom .p19 {
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #737373;
+    position: absolute;
+    top: 217px;
+    right: 0;
+}
+
+/* 公共样式 end*/
+
+
+/* .content {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+} */
+
+.content .ccc {
+    width: 1200px;
+    height: 1020px;
+    margin: 0 auto;
+}
+
+.content .ccc .cc {
+    width: 400px;
+    height: 340px;
+    float: left;
+}
+
+.content .ccc .ccc8 {
+    width: 800px;
+    height: 340px;
+    float: left;
+}
+
+.content .ccc .ccc1 div {
+    width: 190px;
+    height: 122px;
+    float: left;
+    margin: 37px 0 0 11px;
+    border: 5px solid #ff2e64;
+}
+
+.content .ccc .ccc1 div .p3 {
+    height: 22px;
+    font-size: 22px;
+    line-height: 36px;
+    color: #ff2e64;
+    float: right;
+    margin: 30px 23px 0 0;
+}
+
+.content .ccc .ccc1 div .p4 {
+    width: 160px;
+    height: 22px;
+    font-size: 22px;
+    line-height: 36px;
+    color: #ff2e64;
+    float: right;
+    margin: 14px 23px 0 0;
+    text-align: right;
+}
+
+.content .ccc .p5 {
+    width: 317px;
+    height: 181px;
+    font-size: 15px;
+    line-height: 21px;
+    color: #3e3e3e;
+    margin: 55px 0 0 40px;
+}
+
+.content .ccc .ccc3 img {
+    width: 400px;
+    height: 340px;
+    vertical-align: top;
+}
+
+.content .ccc .ccc4 img {
+    width: 382px;
+    height: 164px;
+    margin: 125px 0 0 10px;
+}
+
+.content .ccc .ccc5 img {
+    width: 400px;
+    height: 340px;
+    vertical-align: top;
+}
+
+.content .ccc .ccc7 img {
+    width: 400px;
+    height: 340px;
+    vertical-align: top;
+}
+
+.content .ccc .ccc8 {
+    position: relative;
+}
+
+.content .ccc .ccc8 .back {
+    position: absolute;
+    width: 16px;
+    height: 31px;
+    top: 104px;
+    left: 235px;
+}
+
+.content .ccc .ccc8 .pc {
+    position: absolute;
+    width: 97px;
+    height: 96px;
+    top: 64px;
+    left: 337px;
+}
+
+.content .ccc .ccc8 .next {
+    position: absolute;
+    width: 16px;
+    height: 31px;
+    top: 104px;
+    left: 521px;
+}
+
+.content .ccc .ccc8 p {
+    width: 538px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.content .ccc .ccc8 div {
+    width: 538px;
+    position: absolute;
+    top: 230px;
+    left: 117px;
+}
+
+.banner2 {
+    width: 100%;
+    height: auto;
+}
+
+.banner2 img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    margin: 172px 0 0 0;
+}
+
+.ddd img {
+    vertical-align: top;
+}
+
+
+.ddd {
+    width: 1200px;
+    height: 540px;
+    margin: 0 auto;
+}
+
+.ddd .left {
+    width: 355px;
+    height: 540px;
+    float: left;
+}
+
+.ddd .left img {
+    width: 355px;
+    height: 540px;
+}
+
+.ddd .mid {
+    width: 257px;
+    height: 540px;
+    float: left;
+}
+
+.ddd .mid div {
+    width: 257px;
+    height: 270px;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    position: relative;
+}
+
+.ddd .mid .p9 {
+    position: absolute;
+    font-size: 18px;
+    line-height: 18px;
+    color: #e4e4e4;
+    top: 90px;
+    left: 56px;
+}
+
+.ddd .mid .p10 {
+    position: absolute;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    color: #e4e4e4;
+    top: 126px;
+    left: 15px;
+}
+
+.ddd .mid .img {
+    width: 257px;
+    height: 270px;
+}
+
+.ddd .right {
+    width: 588px;
+    height: 540px;
+    float: left;
+}
+
+.ddd .right img {
+    float: left;
+}
+
+.ddd .right .img5 {
+    width: 295px;
+    height: 270px;
+}
+
+.ddd .right .img6 {
+    width: 293px;
+    height: 270px;
+}
+
+.ddd .right .img8 {
+    width: 588px;
+    height: 270px;
+}
+
+.eee {
+    width: 1200px;
+    height: 906px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.eee img {
+    width: 549px;
+    height: 78px;
+    position: absolute;
+    top: 99px;
+    left: 325px;
+}
+
+.eee p {
+    position: absolute;
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #3e3e3e;
+}
+
+.p11 {
+    top: 248px;
+    left: 398px;
+}
+
+.p12 {
+    top: 270px;
+    left: 480px;
+}
+
+.p13 {
+    top: 291px;
+    left: 577px;
+}
+
+.btn1 {
+    width: 170px;
+    height: 54px;
+    border: none;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    font-size: 18px;
+    color: #ffffff;
+    position: absolute;
+    top: 392px;
+    left: 386px;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 170px;
+    height: 54px;
+    border: 2px solid #777777;
+    background: transparent;
+    font-size: 18px;
+    position: absolute;
+    top: 392px;
+    left: 624px;
+    cursor: pointer;
+}
+
+.eee div {
+    width: 644px;
+    height: 129px;
+    border: 5px solid #ff5442;
+    position: absolute;
+    top: 524px;
+    left: 161px;
+    font-size: 24px;
+    color: #f92d2d;
+    line-height: 36px;
+    padding: 13px 71px 0 134px;
+}
+
+.p14 {
+    position: absolute;
+    width: 743px;
+    height: 21px;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #3e3e3e;
+    top: 709px;
+    left: 444px;
+}
+
+.p15 {
+    position: absolute;
+    width: 743px;
+    height: 21px;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #3e3e3e;
+    top: 730px;
+    left: 444px;
+}
+
+.fff {
+    width: 100%;
+    height: 90px;
+    background: #ff4351;
+    position: relative;
+}
+
+.fff p {
+    font-size: 14px;
+    width: 100%;
+    height: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+}
+
+.p16 {
+    top: 27px;
+}
+
+.p17 {
+    top: 48px;
+}
+
+.footer {
+    width: 100%;
+    height: 767px;
+}
+
+
+
+.footer .top {
+    width: 100%;
+    height: 500px;
+    background: #333333;
+}
+
+.top img {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.top div {
+    width: 50%;
+    height: 500px;
+    position: relative;
+    float: left;
+}
+
+.top form {
+    width: 500px;
+    height: 269px;
+    position: absolute;
+    top: 113px;
+    left: 100px;
+}
+
+.top h3 {
+    width: 100px;
+    height: 24px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+}
+
+.top input {
+    width: 186px;
+    height: 35px;
+    padding: 0 10px 0 10px;
+    font-size: 14px;
+    color: #8c8c8c;
+    border: 1px solid #666666;
+    background: transparent;
+    position: absolute;
+}
+
+.top .name {
+    top: 60px;
+    left: 0;
+}
+
+.top .phnum {
+    top: 60px;
+    left: 217px;
+}
+
+.top textarea {
+    width: 402px;
+    height: 107px;
+    border: 1px solid #666666;
+    background: transparent;
+    position: absolute;
+    top: 109px;
+    left: 0;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: #8c8c8c;
+}
+
+.top .btn3 {
+    width: 90px;
+    height: 33px;
+    color: #ffffff !important;
+    border: none !important;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+

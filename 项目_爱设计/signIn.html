@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/signIn.css">
+    <title>Sign In</title>
+</head>
+
+<body>
+    <button class="btn_login">登录</button>
+    <div class="login">
+        <div class="login_con">
+            <div class="top">
+                <p class="p1">扫一扫登录</p>
+                <p class="p2">账号登录</p>
+                <button class="btn_close"><img src="img/signIn/close.png" alt=""></button>
+            </div>
+            <div class="mid">
+                <form action="">
+                    <div class="user"></div>
+                    <input type="text" class="username" placeholder="用户登录">
+                    <div class="passw"></div>
+                    <input type="password" class="psw">
+                    <div class="autoLogin">
+                        <input type="checkbox" class="autologin" id="autologin">
+                        <label for="autologin">下次自动登录</label>
+                    </div>
+                    <input type="submit" class="submit" value="登录"> 
+                    <p class="p3">登录遇到问题</p>
+                </form>
+            </div>
+            <div class="bottom">
+                <img src="img/signIn/qq.png" alt="">
+                <button class="btn_logup">立即注册</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../jquery/jquery-3.4.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".btn_login").click(function(){
+            $(".login").show();
+        })
+        $(".btn_close").click(function(){
+            $(".login").hide();
+        })
+    })
+</script>
+
+</script>
+</html>

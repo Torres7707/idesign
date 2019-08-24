@@ -1,0 +1,531 @@
+/* 公共样式 start*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button,
+input,
+select,
+a,
+textarea {
+    outline: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    min-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 1200px;
+    height: 87px;
+    margin: 0 auto;
+}
+
+.nav img {
+    width: 157px;
+    height: 58px;
+    float: left;
+    margin: 16px 0 0 9px;
+}
+
+.nav ul {
+    width: 640px;
+    height: 14px;
+    float: left;
+    list-style: none;
+    margin: 38px 0 0 116px;
+}
+
+.nav li {
+    width: auto;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #626262;
+}
+
+.nav a:hover {
+    color: #ff3c58;
+}
+
+.active a {
+    color: #ff3c58 !important;
+}
+
+.nav button {
+    width: 62px;
+    height: 14px;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ff2e64;
+    float: right;
+    margin: 38px 12px 0 0;
+    cursor: pointer;
+}
+
+.nav .avatar {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin: 25px 0 0 0;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+/* .banner .aaa {
+    position: absolute;
+    top: 355px;
+    left: 280px;
+    width: 374px;
+    height: 112px;
+}
+
+.banner .p1 {
+    width: 315px;
+    height: 72px;
+    font-size: 72px;
+    float: left;
+    margin: 0 0 0 30px;
+    line-height: 72px;
+    color: #ff345f;
+}
+
+.banner .p2 {
+    width: 374px;
+    height: 51px;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    float: left;
+    font-size: 24px;
+    line-height: 51px;
+    color: #ffffff;
+    text-align: center;
+} */
+
+.footer .bottom {
+    width: 100%;
+    height: 267px;
+    background: #292929;
+}
+
+.bottom_con {
+    width: 1200px;
+    height: 267px;
+    margin: 0 auto;
+}
+
+.bottom .ulist {
+    width: 284px;
+    height: 267px;
+    position: relative;
+    float: left;
+}
+
+.bottom ul {
+    width: 65px;
+    height: 175px;
+    list-style: none;
+    position: absolute;
+    top: 55px;
+    left: 0;
+}
+
+.bottom li {
+    width: 65px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+.bottom .info {
+    width: 640px;
+    height: 267px;
+    float: left;
+    position: relative;
+}
+
+.bottom .info1 {
+    width: 534px;
+    height: 200px;
+    border-left: 2px solid #323232;
+    border-right: 2px solid #323232;
+    position: absolute;
+    top: 30px;
+    left: 39px;
+    position: relative;
+}
+
+.bottom h3 {
+    width: 160px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    position: absolute;
+    top: 23px;
+    left: 159px;
+}
+
+.bottom .info img {
+    width: 160px;
+    height: 35px;
+    position: absolute;
+    top: 58px;
+    left: 159px;
+    cursor: pointer;
+}
+
+.bottom .p18 {
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    position: absolute;
+    top: 116px;
+    left: 159px;
+}
+
+.bottom input {
+    width: 157px;
+    height: 33px;
+    border: none;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #131313;
+    position: absolute;
+    top: 145px;
+    left: 159px;
+    resize: none;
+}
+
+.footer .bottom button {
+    width: 35px;
+    height: 33px;
+    border: none;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    top: 146px;
+    left: 336px;
+    cursor: pointer;
+}
+
+.bottom .about {
+    width: 276px;
+    height: 267px;
+    float: left;
+    position: relative;
+}
+
+.bottom .logo2 {
+    width: 160px;
+    height: 60px;
+    vertical-align: top;
+    position: absolute;
+    top: 130px;
+    left: 118px;
+}
+
+.bottom .p19 {
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #737373;
+    position: absolute;
+    top: 217px;
+    right: 0;
+}
+
+/* 公共样式 end*/
+
+.content {
+    width: 1200px;
+    height: auto;
+    padding: 80px 0 160px 0;
+    margin: 0 auto;
+}
+
+.content .account_setting {
+    width: 100%;
+    height: 40px;
+}
+
+.content .account_setting .avatar {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.content .account_setting .username {
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #626262;
+    float: left;
+    margin: 0 0 0 12px;
+}
+
+.content .account_setting .arrow {
+    width: 18px;
+    height: 16px;
+    float: left;
+    margin: 14px 0 0 11px;
+}
+
+.content .account_setting .setting {
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #ff2e64;
+    float: left;
+    margin: 0 0 0 11px;
+}
+
+.content .setting_title {
+    width: 100%;
+    height: 36px;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 20px 0 0 0;
+}
+
+.content .upload_img_size {
+    width: 100%;
+    height: 350px;
+    margin: 36px 0 0 0;
+}
+
+.content .upload_img_size .img1 {
+    width: 348px;
+    height: 348px;
+    border: 1px solid #3e3e3e;
+    background: url(../img/account/smile.png);
+    float: left;
+}
+
+.content .upload_img_size .img2 {
+    width: 240px;
+    height: 350px;
+    float: left;
+    margin: 0 0 0 102px;
+}
+
+.content .upload_img_size .img2_fruit {
+    width: 238px;
+    height: 238px;
+    border: 1px solid #3e3e3e;
+    margin: 28px 0 0 0;
+    background: url(../img/account/fruit.png);
+}
+
+.content .upload_img_size p {
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    color: #3e3e3e;
+}
+
+.content .upload_img_size .img3 {
+    width: 180px;
+    height: 350px;
+    float: left;
+    margin: 0 0 0 51px;
+}
+
+.content .upload_img_size .img3_fruit {
+    width: 178px;
+    height: 178px;
+    border: 1px solid #3e3e3e;
+    margin: 88px 0 0 0;
+    background: url(../img/account/fruit.png);
+    background-size: 178px 178px;
+}
+
+.content .upload_img_size .img4 {
+    width: 85px;
+    height: 350px;
+    float: left;
+    margin: 0 0 0 51px;
+}
+
+.content .upload_img_size .img4_fruit {
+    width: 78px;
+    height: 78px;
+    border: 1px solid #3e3e3e;
+    margin: 188px 0 0 0;
+    background: url(../img/account/fruit.png);
+    background-size: 78px 78px;
+}
+
+.content .upload_img {
+    width: 100%;
+    height: 40px;
+    margin: 51px 0 0 0;
+}
+
+.content .upload_img .file {
+    width: 99px;
+    height: 38px;
+    border-top: 1px solid #3e3e3e;
+    border-bottom: 1px solid #3e3e3e;
+    border-left: 1px solid #3e3e3e;
+    background: url(../img/account/file.png) no-repeat;
+    background-position: 30px 6px;
+    cursor: pointer;
+    float: left;
+}
+
+.content .upload_img>button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    font-size: 16px;
+    color: #ffffff;
+    float: left;
+    cursor: pointer;
+}
+
+.content .warning {
+    width: 100%;
+    height: 16px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3e3e3e;
+    margin: 30px 0 0 0;
+}
+
+.content .operate {
+    width: 100%;
+    height: 40px;
+    margin: 30px 0 0 0;
+}
+
+.content .operate .save {
+    width: 160px;
+    height: 40px;
+    border: 1px solid #3e3e3e;
+    background: #ffffff;
+    font-size: 16px;
+    color: #3e3e3e;
+    float: left;
+    cursor: pointer;
+}
+
+.content .operate .cancer {
+    width: 160px;
+    height: 40px;
+    border: 1px solid #3e3e3e;
+    background: #ffffff;
+    font-size: 16px;
+    color: #3e3e3e;
+    float: left;
+    margin: 0 0 0 30px;
+    cursor: pointer;
+}
+
+.content .user_info {
+    width: 100%;
+    height: 470px;
+    margin: 70px 0 0 0;
+}
+
+.content .user_info .name {
+    width: 100%;
+    height: 40px;
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+.content .user_info .name .info_name {
+    width: 110px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #3e3e3e;
+    float: left;
+}
+
+.content .user_info .name>input {
+    width: 290px;
+    height: 40px;
+    border: 1px solid #3e3e3e;
+    float: left;
+    padding: 0 15px 0 15px;
+}
+
+.content .user_info .name>select {
+    width: 80px;
+    height: 40px;
+    padding: 0 0 0 20px;
+    border: 1px solid #88a0c2;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    font-size: 16px;
+    color: #ffffff;
+    float: left;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+
+.constellation {
+    width: 568px;
+    height: 40px;
+    float: left;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+}
+
+.content .operate1 {
+    width: 100%;
+    height: 40px;
+    margin: 30px 0 0 0;
+    float: left;
+}
+
+.content .operate1 .save1 {
+    width: 160px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    font-size: 16px;
+    color: #ffffff;
+    float: left;
+    cursor: pointer;
+}
+
+.content .operate1 .cancer1 {
+    width: 160px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to right, #ff2e64, #ff5c3b);
+    font-size: 16px;
+    color: #ffffff;
+    float: left;
+    margin: 0 0 0 30px;
+    cursor: pointer;
+}
